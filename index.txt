@@ -1,0 +1,450 @@
+HTML:
+1.HTML-Hyper Text Markup language
+
+Headings
+1.<h1>Headings</h1>
+
+there are totally 6 heading tags in the HEADING.
+
+
+HTML Paragraph tag:
+  1.<p>paragraph</p>
+
+HTML Anchor tag:
+  1.creates the hyperlink to a web page
+   
+    <a href="webpage link">page name</a>
+
+
+HTML image tag:
+   <img scr="image location" alt="alternative text if the image doesn't load"/>
+
+
+Image tag + anchor tag:
+
+loading image tag + anchor tag 
+
+FOR EXAMPLE:
+   
+  1.<img scr="jesusimage jpg"/> <br>
+  2.<a href="https://www.youtube.com/watch?.............">christian song</a>
+
+  <br>stands for break 
+
+CENTER TAG:
+
+if the above image want to be in the center use the center tag <center>_____</center>
+
+WIDTH Tag:
+
+if we want the image in the bigger size use the width tag:
+     
+            width="100px"
+   
+ FOR EXAMPLE:
+       
+     <img scr="jesusimage jpg"  width="100px>
+
+
+ HTML LIST:
+------------
+   
+    ORDERED LIST:
+
+<ol>
+   <li>ONE</li>
+   <li>TWO</li>
+   <li>THREE</li>
+</ol>
+
+    UNORDERED LIST:
+<ul>
+   <li>ONE</li>
+   <li>TWO</li>
+   <li>THREE</li>
+<ul>
+     
+HTML iframe:
+an inline frame is used to embed another document within the current HTML document
+
+fr example:
+
+<iframe scr="https://tamilrockershd.online/home/"></iframe>
+
+
+HR tag:
+<hr>tags are used to create the horizontal line .
+separate the content using lines.
+
+BR TAGS:
+tags inserts a singke line break. 
+
+THERE ARE MORE NUMBER OF TAGS IN THE HTML. 
+
+WEBSITE LINK TO LEARN MORE HTML TAGS:
+
+                        https://developer.mozilla.org/en-US/docs/Web/HTML
+
+
+
+ HTML FORMAT TYPE:
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+
+</head>
+
+<body>
+    
+
+</body>
+
+
+</html>
+
+
+HEAD TAG(<head>):
+
+inside the head tag 
+
+we gives important links,title.
+
+BODY TAG:
+expect links,titles the remaining inside tags ,para are inside the BODY TAGS.
+
+
+first project:
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Events</title>
+        <link rel="icon" href="img/date.png">
+    </head>
+
+    <body bgcolor="black" style="color: white;">
+         <center>
+         <h1>Upcoming Events📅</h1>
+         <p>Don't miss any of your important events. Stay Updated  </p>
+         </center>
+
+         <hr>
+
+         <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae labore similique temporibus consectetur, nostrum error itaque soluta architecto? Itaque natus dolor corrupti numquam iusto dicta nam quis debitis animi reiciendis vero illum pariatur voluptatum est, doloremque molestiae nobis voluptatibus impedit, excepturi corporis. Fugiat, labore repellat reiciendis magnam veniam consequuntur molestias placeat tempore ullam? Accusantium error dolorum recusandae porro, quis pariatur placeat deleniti saepe rem expedita vero id. Explicabo perferendis porro earum commodi sapiente inventore culpa laborum nihil consequatur aperiam suscipit non voluptate nisi, itaque ea perspiciatis! Sunt a alias, reprehenderit harum incidunt ipsum aperiam cumque fugit quo libero repellat praesentium!
+         </p>
+
+         <center>
+         <img src="img/event1.png">
+         <h1>Photo Gallery Event</h1>
+         <h2>Free Entry | Free Food | Pets are not allowed</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ab dolorem totam commodi corporis repudiandae sunt repellendus mollitia, eos delectus voluptatibus necessitatibus repellat, vel est itaque aliquam ipsa eveniet assumenda at! Pariatur, repudiandae! Possimus sapiente sunt, aut nam, accusamus beatae fuga et ex rem delectus voluptas, assumenda impedit saepe. Architecto?</p>
+         </center>  
+         
+         <center>
+            <img src="img/event2.png">
+            <h1>
+                <a href="https://www.myntra.com">Fashion Store</a>
+            </h1>
+            <h2>Free Entry | Free Food | Pets are not allowed</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ab dolorem totam commodi corporis repudiandae sunt repellendus mollitia, eos delectus voluptatibus necessitatibus repellat, vel est itaque aliquam ipsa eveniet assumenda at! Pariatur, repudiandae! Possimus sapiente sunt, aut nam, accusamus beatae fuga et ex rem delectus voluptas, assumenda impedit saepe. Architecto?</p>
+         </center>
+
+
+         <hr>
+
+         <center>
+         <h1>Contact</h1>
+         <h2>+918796543465 | martin@gmail.com</h2>
+         <p>6/20,Matha Nagar,Thoothukudi-628002</p>
+        </center>
+
+
+
+
+    </body>
+
+
+</html>
+
+
+
+
+                                                                  -------*****************--------
+
+HTML TABLES AND FORMS:
+
+<table></table>
+
+table has row and column.
+
+<tr>=table row
+<td>=table column or table data 
+
+
+CODE:
+
+<table border="1">
+        <tr>
+              <td>Name</td> <td>age</td>
+        <tr>
+        <tr>
+              <td>martin</td> <td>19</td>
+        <tr>
+</table>
+
+HTML FORM:
+
+<form>
+     Name:<input type="text">
+     Age:<input type="number">
+     <input type="reset">
+     <input type="submit">
+</form>
+
+
+adding table + forms for the correct alignment.
+
+EXAMPLE:
+
+<form>
+    <table>
+    <tr>
+        <td>Nane</td><td><input type="text"></td>
+    </tr>
+    <tr>
+        <td>Age</td><td><input type="number"></td>
+    </tr>
+    <tr>
+        <td><input type="submit"></td><td><input type="reset"></td>
+    </tr>
+    </table>
+</form>
+
+
+exercise:::::
+
+
+<center>
+<h1>Student Registration Form</h1>
+<form>
+    <table>
+    <tr>
+        <td>Name:</td><td><input type="text" placeholder="Enter Your Name"></td>
+    </tr>
+    <tr>
+        <td>Age:</td><td><input type="number" placeholder="Enter Your Age"></td>
+    </tr>
+    <tr>
+        <td>Address:</td><td><input type="text" placeholder="Enter Your Address"></td>
+    </tr>
+    <tr>
+        <td>Department:</td>
+
+        <td>
+            <select>
+         <option>python</option>
+         <option>cse</option>
+         <option>eee</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td></td><td><input type="submit"></td>
+    </tr>
+    </table>
+</form>
+</center>
+
+_{-_______________________________________________________________________________________________________________________________________________________________________
+
+
+
+                                                                       INDEX.HTML
+-_______________________________________________________________________________________________________________________________________________________________________-----
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <title>EMC</title>
+</head>
+<body>
+    <center>
+    <h1>LETS COOK ACADEMY🚀</h1>
+    <h5>Training | Tech News | Freshers Guides</h5>
+    <p>Empowering young developers to level up their skills through corporate training</p>
+    </center>
+    <hr>
+
+    <center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5QzzeYHApV0?si=C5FjGKiDRCgOZ5ST" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </center>
+
+    <p>In this video, I will explain what full stack development is and provide a detailed overview of the technologies used to build full stack web applications. Full stack web development involves building the front-end, back-end, and database components of a web application. This means that full stack developers are responsible for everything from designing the user interface to managing the server-side logic and database.</p>
+    <p>I will begin by discussing the key technologies and programming languages used in full stack web development, including HTML, CSS, JavaScript, Node.js, and various front-end frameworks such as React and Angular. I will then move on to discuss the server-side technologies like Python, Java and Node Js, and databases like MySQL, MongoDB, and Aws.
+
+        Throughout the video, I will provide examples and code snippets to help illustrate how these different technologies are used in practice.</p>
+    <h1>Lets Divide Full Stack into 3 Parts</h1>
+    <ul>
+        <li>Frontend</li>
+        <li>Backend </li>
+        <li>Database</li>
+    </ul>
+
+    <h2>Technologies used for Full Stack Development</h2>
+
+    <table border="1">
+        <tr>
+            <td>Frontend</td> <td>Backend</td> <td>Database</td>
+        </tr>
+
+        <tr>
+            <td>HTML</td> <td>Java</td> <td>Mongo DB</td>
+        </tr>
+
+        <tr>
+            <td>CSS</td> <td>Python</td> <td>MYSQL</td>
+        </tr>
+
+        <tr>
+            <td>JavaScript</td> <td>Node JS</td> <td>Aws</td>
+        </tr>
+
+    </table>
+
+
+    <hr>
+<center>
+    <p>
+        <a href="register.html">Register for a course</a> | <a href="https://www.instagram.com/martin_.19._">instagram</a> | <a href="https://youtube.com/@batman_1014?si=MUKG2f_7ox_HSwER">youtube</a>
+    </p>
+</center>
+
+ 
+</body>
+
+
+
+</html>
+
+_____________________________________________________________________________________________________________________________________________________________________________
+
+
+                                                                         REGISTER.HTML
+______________________________________________________________________________________________________________________________________________________________________
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+</head>
+<body>
+    <center>
+        <h1>LETS COOK ACADEMY</h1>
+        <h5>Training | Tech News | Freshers Guides</h5>
+        <p>Empowering young developers to level up their skills through corporate training</p>
+        </center>
+
+
+        <hr>
+    <center>
+        <h1>Registration Form</h1>
+
+        <form>
+            <table>
+                <tr>
+                    <td>Name:</td> <td><input type="text" placeholder="Enter Your Name"></td>
+                </tr>
+
+                <tr>
+                    <td>Age: </td> <td><input type="number" placeholder="Enter Your Age"></td>
+                </tr>
+
+                <tr>
+                    <td>Gender:</td> 
+                    <td><input type="radio" name="Gender">Male
+                         <input type="radio" name="Gender">Female
+                        </td> 
+                </tr>
+
+                <tr>
+                    <td>Email:</td> <td><input type="text" placeholder="Enter Your Email"></td>
+                </tr>
+
+                <tr>
+                    <td>Select a course:</td>
+                    <td>
+                        <select>
+                            <option>Full stack development</option>
+                            <option>MySQL</option>
+                            <option>APP Development</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Upload Your Resume:</td>
+                    <td><input type="file"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="reset"></td>
+                    <td><input type="submit"></td>
+                </tr>
+
+            </table>
+        </form>
+    </center>
+
+    <hr>
+
+    <center>
+        <p>
+            <a href="index.html">HOME</a> | <a href="https://www.instagram.com/martin_.19._">instagram</a> | <a href="https://youtube.com/@batman_1014?si=MUKG2f_7ox_HSwER">youtube</a>
+        </p>
+    </center>
+
+
+    <hr>
+
+
+</body>
+</html>
+...............................................................................................................................................................................................................................
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
